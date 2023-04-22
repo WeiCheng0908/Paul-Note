@@ -1,0 +1,52 @@
+site_name: Paul's Note
+site_author: Paul Lee
+
+nav:
+  - Home: index.md
+  - Python: 
+      - "decorator使用": Python/decorator.md
+  - MkDocs:
+      - "配置": MkDocs/Configuration.md
+      - "Theme 設定": MkDocs/Theme_Setting.md
+  - vim:
+      - "基本操作": vim/basic.md
+      - "進階": vim/advanced.md
+  - 投資:
+      - "基本面分析": Invest/fundamental.md
+      - "技術面分析": Invest/technical.md
+      - "籌碼面分析": Invest/chip.md
+  - About: about.md
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  highlightjs: true
+  hljs_languages:
+    - yaml
+  palette:
+
+    # Palette toggle for light mode
+    - media:  "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  language: zh-TW
+
+plugins:
+    - search
+    - awesome-pages
