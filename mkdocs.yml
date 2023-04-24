@@ -40,7 +40,13 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - toc.follow
   font:
     text: Roboto
     code: Roboto Mono

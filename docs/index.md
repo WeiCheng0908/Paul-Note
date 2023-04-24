@@ -15,3 +15,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+# Material Theme setting documentation
+
+[setup](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#hide-table-of-contents)
