@@ -713,15 +713,15 @@
 <p>用來轉換class中的物件屬性，使得private attribute可以用較直接的方式存取的同時，又可以不被任意修改</p>
 </div>
 <h4 id="example">Example</h4>
-<p><div class="language-py highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span>
-<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="k">class</span> <span class="nc">Staff</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">Name</span><span class="p">):</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">_Name</span> <span class="o">=</span> <span class="n">Name</span>
-</span></code></pre></div></td></tr></table></div>
-* 當我們設計一個class的屬性時，因為要保護他不被任意修改，所以會希望讓他是private的，只有我們允許的對象才能修改和讀取。
-* 最trivial的設計方式是如以下，加入get和set function</p>
-<p><div class="language-py highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">Staff</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">Name</span><span class="p">):</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">_Name</span> <span class="o">=</span> <span class="n">Name</span>
+</span></code></pre></div>
+<ul>
+<li>當我們設計一個class的屬性時，因為要保護他不被任意修改，所以會希望讓他是private的，只有我們允許的對象才能修改和讀取。 </li>
+<li>最trivial的設計方式是如以下，加入get和set function </li>
+</ul>
+<div class="language-py highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
 <span class="normal"><a href="#__codelineno-1-2">2</a></span>
 <span class="normal"><a href="#__codelineno-1-3">3</a></span>
 <span class="normal"><a href="#__codelineno-1-4">4</a></span>
@@ -739,9 +739,11 @@
 </span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a>    <span class="k">def</span> <span class="nf">set_Name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">new_Name</span><span class="p">):</span>
 </span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">_Name</span> <span class="o">=</span> <span class="n">new_Name</span>
 </span></code></pre></div></td></tr></table></div>
-* 如此一來，我們便允許了"get_Name"和"set_Name"對"self._Name"進行修改
-* 但是每次都要用一個function來改變值，而不是用"assignment symbol"(就是等號啦)來指派，難免有些不直觀
-* 於是Property就登場了！</p>
+<ul>
+<li>如此一來，我們便允許了"get_Name"和"set_Name"對"self._Name"進行修改 </li>
+<li>但是每次都要用一個function來改變值，而不是用"assignment symbol"(就是等號啦)來指派，難免有些不直觀 </li>
+</ul>
+<p><strong>於是Property就登場了！</strong> </p>
 <div class="language-py highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
@@ -773,10 +775,10 @@
 </span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="n">P</span><span class="o">.</span><span class="n">Name</span> <span class="o">=</span> <span class="s2">&quot;Paul&quot;</span>
 </span></code></pre></div></td></tr></table></div>
 <ul>
-<li>如以上的寫法，我們就可以直接print class object內的attribute</li>
-<li>以及可以直接用"="來修改值</li>
+<li>如以上的寫法，我們就可以直接print class object內的attribute </li>
+<li>以及可以直接用"="來修改值 </li>
 </ul>
-<div class="admonition info">
+<div class="admonition note">
 <p>我們可以在class內的setter中進行判斷，以限制被輸入的數值類型
 例如今天在第15行的地方輸入的不是string，而是int，則這個修改就可以在setter被擋下來</p>
 </div>
