@@ -31,17 +31,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/Markdown/</loc>
+         <lastmod>2023-04-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://weicheng0908.github.io/Paul-Note/Markdown/md_advanced/</loc>
          <lastmod>2023-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/Markdown/md_basic/</loc>
-         <lastmod>2023-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://weicheng0908.github.io/Paul-Note/Markdown/md_cheat_sheet/</loc>
          <lastmod>2023-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
