@@ -6,11 +6,11 @@ nav:
   - Python: 
       - "decorator使用": Python/decorator.md
   - Markdown:
-      Markdown/cheat_sheet.md
+      - Markdown/cheat_sheet.md
       - "基本": Markdown/basic.md
       - "進階": Markdown/advanced.md
   - vim:
-      vim/cheat_sheet.md
+      - vim/cheat_sheet.md
       - "基本操作": vim/basic.md
       - "進階": vim/advanced.md
   - 投資:
