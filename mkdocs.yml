@@ -5,10 +5,12 @@ nav:
   - Home: index.md
   - Python: 
       - "decorator使用": Python/decorator.md
-  - MkDocs:
-      - "配置": MkDocs/Configuration.md
-      - "Theme 設定": MkDocs/Theme_Setting.md
+  - Markdown:
+      Markdown/cheat_sheet.md
+      - "基本": Markdown/basic.md
+      - "進階": Markdown/advanced.md
   - vim:
+      vim/cheat_sheet.md
       - "基本操作": vim/basic.md
       - "進階": vim/advanced.md
   - 投資:
@@ -25,14 +27,12 @@ theme:
   hljs_languages:
     - yaml
   palette:
-
     # Palette toggle for light mode
     - media:  "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/lightbulb 
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -45,12 +45,17 @@ theme:
     - navigation.path
     - navigation.prune
     - navigation.top
+    - navigation.footer
     - toc.follow
   font:
     text: Roboto
     code: Roboto Mono
-
   language: zh-TW
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/WeiCheng0908
 
 plugins:
     - search
