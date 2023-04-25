@@ -2,27 +2,34 @@ site_name: Paul's Note
 site_author: Paul Lee
 
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
+    - "Markdown UserGuide":
+      - "Overview": Markdown/md_cheat_sheet.md
+      - "基本": Markdown/md_basic.md
+      - "進階": Markdown/md_advanced.md
+    - "Mkdocs UserGuide": user_manual.md
+    - "About me": index.md
   - Python: 
-      - "decorator使用": Python/decorator.md
-  - Markdown:
-      - Markdown/cheat_sheet.md
-      - "基本": Markdown/basic.md
-      - "進階": Markdown/advanced.md
+    - "decorator用法&一些示例": Python/decorator.md
+  - Home Server:
+    - "Service": Server/service.md
   - vim:
-      - vim/cheat_sheet.md
-      - "基本操作": vim/basic.md
-      - "進階": vim/advanced.md
+    - "Overview": vim/cheat_sheet.md
+    - "基本操作": vim/basic.md
+    - "進階": vim/advanced.md
   - 投資:
-      - "基本面分析": Invest/fundamental.md
-      - "技術面分析": Invest/technical.md
-      - "籌碼面分析": Invest/chip.md
+    - "基本面分析": Invest/fundamental.md
+    - "技術面分析": Invest/technical.md
+    - "籌碼面分析": Invest/chip.md
 
 extra_css:
   - stylesheets/extra.css
 
 theme:
   name: material
+  logo: assets/cheng_pixel.png
+  custom_dir: overrides
   highlightjs: true
   hljs_languages:
     - yaml
@@ -30,6 +37,8 @@ theme:
     # Palette toggle for light mode
     - media:  "(prefers-color-scheme: light)"
       scheme: default
+      primary: cyan
+      accent: green
       toggle:
         icon: material/lightbulb 
         name: Switch to dark mode
@@ -47,6 +56,7 @@ theme:
     - navigation.top
     - navigation.footer
     - toc.follow
+
   font:
     text: Roboto
     code: Roboto Mono
@@ -60,3 +70,22 @@ extra:
 plugins:
     - search
     - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true

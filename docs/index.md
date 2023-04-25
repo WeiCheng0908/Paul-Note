@@ -1,22 +1,9 @@
-# Welcome to MkDocs
+# About me
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+### Paul Lee (WeiCheng Lee)
+- Born in Kaohsiung, Taiwan.
+- A Hardware Engineer in Realtek Semiconductor Corp.
+- Love record personal life on blog.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
-# Material Theme setting documentation
-
-[setup](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#hide-table-of-contents)
+#### Recent Goal and Hobby
+- [ ] Reduce to 65 kg
