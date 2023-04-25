@@ -15,7 +15,8 @@ nav:
       - "基本面分析": Invest/fundamental.md
       - "技術面分析": Invest/technical.md
       - "籌碼面分析": Invest/chip.md
-  - About: about.md
+  - Blog: 
+      - blog/index.md
 
 extra_css:
   - stylesheets/extra.css
@@ -54,5 +55,10 @@ theme:
   language: zh-TW
 
 plugins:
+    - blog:
+        blog_dir: blog
+        blog_toc: true
+        post_date_format: medium
+        post_url_date_format: yyyy/MM/dd
     - search
     - awesome-pages
