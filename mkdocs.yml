@@ -1,21 +1,22 @@
 site_name: Paul's Note
 site_author: Paul Lee
+site_url: https://weicheng0908.github.io/Paul-Note/
 
 nav:
   - Home:
     - index.md
-    - "Markdown UserGuide":
-      - "Overview": Markdown/md_cheat_sheet.md
+    - Markdown UserGuide:
+      - Markdown/index.md
       - "基本": Markdown/md_basic.md
       - "進階": Markdown/md_advanced.md
-    - "Mkdocs UserGuide": user_manual.md
-    - "About me": index.md
+    - Mkdocs UserGuide: user_manual.md
+    - About me: about_me.md
   - Python: 
     - "decorator用法&一些示例": Python/decorator.md
   - Home Server:
     - "Service": Server/service.md
   - vim:
-    - "Overview": vim/cheat_sheet.md
+    - vim/index.md
     - "基本操作": vim/basic.md
     - "進階": vim/advanced.md
   - 投資:
@@ -51,11 +52,11 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
-    - navigation.path
-    - navigation.prune
     - navigation.top
     - navigation.footer
+    - navigation.indexes
     - toc.follow
+    - search.suggest
 
   font:
     text: Roboto
@@ -70,6 +71,8 @@ extra:
 plugins:
     - search
     - awesome-pages
+    - minify:
+        minify_html: true
 
 markdown_extensions:
   - admonition

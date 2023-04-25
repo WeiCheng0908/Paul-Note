@@ -24,5 +24,13 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Material Theme Feature
 [setting documentation](https://squidfunk.github.io/mkdocs-material/setup/)
 
+### Material navigation setting
+`我想在navigation的資料夾加入overview page，卻一直跑出新的頁面`
+
+:   必須在mkdocs.yml的features加入navigation.indexes<br>
+    並將overview page命名為"index.md"，放在該分類下的第一個頁面<br>
+    系統才會自動generate，而不是新增頁面。<br>
+    [reference](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#section-index-pages)
+
 ### [Material 新增留言板](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/)
 需要override mkdocs自動產生的網頁原始碼，因此會有比較特別的設定
