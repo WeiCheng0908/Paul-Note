@@ -9,7 +9,8 @@ nav:
       - Markdown/index.md
       - "基本": Markdown/md_basic.md
       - "進階": Markdown/md_advanced.md
-    - Mkdocs UserGuide: user_manual.md
+    - Mkdocs UserGuide: site/mkdoocs/user_manual.md
+    - Hugo UserGuide: site/Hugo/user_manual.md
     - About me: about_me.md
   - Python: 
     - "decorator用法&一些示例": Python/decorator.md

@@ -2,6 +2,9 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+## Windows下安裝
+透過python安裝，建議新增virtualenv管理
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -15,6 +18,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
 
 ## MkDocs Documentation 設置基本法則
 直接到documentation了解設置過程  
