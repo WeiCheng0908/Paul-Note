@@ -76,6 +76,11 @@ plugins:
         minify_html: true
 
 markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - admonition
   - pymdownx.details
   - pymdownx.superfences
