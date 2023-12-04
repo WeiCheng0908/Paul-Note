@@ -15,7 +15,7 @@ nav:
   - Python: 
     - "decorator用法&一些示例": Python/decorator.md
   - Home Server:
-    - "Service": Server/service.md
+    - "Service": HomeServer/service.md
   - vim:
     - vim/index.md
     - "基本操作": vim/basic.md
