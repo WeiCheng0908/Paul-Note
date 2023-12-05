@@ -86,16 +86,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://weicheng0908.github.io/Paul-Note/sites/Hugo/user_manual/</loc>
-         <lastmod>2023-12-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://weicheng0908.github.io/Paul-Note/sites/mkdocs/user_manual/</loc>
-         <lastmod>2023-12-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://weicheng0908.github.io/Paul-Note/vim/</loc>
          <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
