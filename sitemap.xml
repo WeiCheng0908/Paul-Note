@@ -2,77 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/about_me/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://weicheng0908.github.io/Paul-Note/HomeServer/service/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <loc>https://weicheng0908.github.io/Paul-Note/HomeServer/</loc>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://weicheng0908.github.io/Paul-Note/Invest/chip/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <loc>https://weicheng0908.github.io/Paul-Note/HomeServer/software_config/</loc>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://weicheng0908.github.io/Paul-Note/Invest/fundamental/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <loc>https://weicheng0908.github.io/Paul-Note/HomeServer/wireguard/</loc>
+         <lastmod>2023-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/Hugo/user_manual/</loc>
+         <lastmod>2023-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/Invest/</loc>
+         <lastmod>2023-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/Invest/pinescript/</loc>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/Invest/technical/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/Markdown/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/Markdown/md_advanced/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/Markdown/md_basic/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/Network/</loc>
+         <lastmod>2023-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/Network/dns/</loc>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/Python/decorator/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/mkdocs/</loc>
+         <lastmod>2023-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weicheng0908.github.io/Paul-Note/mkdocs/user_manual/</loc>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/sites/Hugo/user_manual/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/sites/mkdocs/user_manual/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/vim/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/vim/advanced/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://weicheng0908.github.io/Paul-Note/vim/basic/</loc>
-         <lastmod>2023-12-04</lastmod>
+         <lastmod>2023-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
