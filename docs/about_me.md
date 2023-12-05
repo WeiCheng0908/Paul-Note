@@ -6,4 +6,3 @@
 - Love record personal life on blog.
 
 #### Recent Goal and Hobby
-- [ ] Reduce to 65 kg

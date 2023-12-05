@@ -9,21 +9,29 @@ nav:
       - Markdown/index.md
       - "基本": Markdown/md_basic.md
       - "進階": Markdown/md_advanced.md
-    - Mkdocs UserGuide: site/mkdoocs/user_manual.md
-    - Hugo UserGuide: site/Hugo/user_manual.md
+    - Mkdocs UserGuide: 
+      - mkdocs/index.md
+      - "add-on設定": mkdocs/user_manual.md
+    - Vim Hint:
+      - vim/index.md
+      - "基本操作": vim/basic.md
+      - "進階": vim/advanced.md
+    - Hugo UserGuide: Hugo/user_manual.md
     - About me: about_me.md
   - Python: 
     - "decorator用法&一些示例": Python/decorator.md
   - Home Server:
-    - "Service": HomeServer/service.md
-  - vim:
-    - vim/index.md
-    - "基本操作": vim/basic.md
-    - "進階": vim/advanced.md
+    - HomeServer/index.md
+    - "Software and Config": HomeServer/software_config.md
+    - "WireGuard VPN": HomeServer/wireguard.md
+  - Internet Concept:
+    - Network/index.md
+    - "DNS": Network/dns.md
+  
   - 投資:
-    - "基本面分析": Invest/fundamental.md
+    - Invest/index.md
+    - "PineScript紀錄": Invest/pinescript.md
     - "技術面分析": Invest/technical.md
-    - "籌碼面分析": Invest/chip.md
 
 extra_css:
   - stylesheets/extra.css
